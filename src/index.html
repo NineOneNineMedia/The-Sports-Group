@@ -1,52 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="./main.js"></script>
+    <title>THE SPORTS GROUP</title>
   </head>
-  <title>THE SPORTS GROUP</title>
+
   <body>
     <nav class="navbar">
       <a class="navbar-brand text-white" href="#">THE SPORTS GROUP</a>
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link text-white active" href="https://www.instagram.com/tsgathletes/"
-              ><i class="fab fa-instagram-square fa-2x"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="https://twitter.com/tsgathletes"
-              ><i class="fab fa-twitter-square fa-2x"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="https://www.linkedin.com/company/51600333"
-              ><i class="fab fa-linkedin fa-2x"></i
-            ></a>
-          </li>
-        </ul>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a
+            class="nav-link text-white active px-1"
+            href="https://www.instagram.com/tsgathletes/"
+            ><i class="fab fa-instagram-square fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white px-1" href="https://twitter.com/tsgathletes"
+            ><i class="fab fa-twitter-square fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-white px-1"
+            href="https://www.linkedin.com/company/51600333"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </li>
+      </ul>
     </nav>
-    <main>
-      <section class="section">
-        <div class="bg-overlay"></div>
-        <div class="bg-video">
-          <video class="bg-video__content" autoplay muted loop>
-            <source src="video.mp4" type="video/mp4" />
-            <!-- <source src="img/video.webm" type="video/webm" /> -->
-          </video>
-        </div>
-        <div class="jumbotron bg-transparent">
-          <div class="container text-center">
-              <div>
-                  <img class="logo" src="tsglogo.png"/>
-              </div>
-            <a href="mailto:info@tsgathletes.com"><button type="button" class="btn btn-lg btn-dark rounded-0 mt-5">Contact</button></a>
+    <header>
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="video.mp4" type="video/mp4" />
+      </video>
+      <div class="jumbotron bg-transparent my-auto">
+        <div class="container text-center">
+          <div>
+            <img class="img-fluid" src="tsglogo.png" />
           </div>
+          <a href="mailto:info@tsgathletes.com"
+            ><button type="button" class="btn btn-lg btn-dark rounded-0 mt-5">
+              Contact
+            </button></a
+          >
         </div>
-    </main>
-
+      </div>
+    </header>
     <footer class="py-4 fixed-bottom">
       <div class="container">
         <div class="row text-center">
