@@ -12,7 +12,7 @@
 
 body {
   box-sizing: border-box;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   overflow: hidden;
 }
 
@@ -54,6 +54,11 @@ header .overlay {
   background-color: white;
   opacity: 0.8;
   z-index: 1;
+}
+
+.btn {
+  color: white;
+  background-color: black;
 }
 
 footer {
